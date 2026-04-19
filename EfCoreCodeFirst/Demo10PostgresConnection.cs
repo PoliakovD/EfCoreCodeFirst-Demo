@@ -58,4 +58,4 @@ public class Demo10PostgresConnection
         
         Console.WriteLine("\n=== Демонстрация завершена ===");
     }
-}"
+}

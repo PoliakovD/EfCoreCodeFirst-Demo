@@ -1,6 +1,13 @@
 ﻿namespace EfCoreCodeFirst.DAL.Models;
 
-public class User
+public record User
 {
+    public int Id { get; set; }
+    public string Name { get; set; }
+    public string Email { get; set; }
+    public DateTime CreatedAt { get; set; }
+    
+    // один к многим навигационное свойство
+    public ICollection<Product>? Products { get; set; }
     
 }

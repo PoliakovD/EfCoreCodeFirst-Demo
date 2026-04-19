@@ -1,3 +1,9 @@
 <Solution>
+  <Folder Name="/other/">
+    <File Path=".env" />
+    <File Path=".gitignore" />
+    <File Path="compose.yaml" />
+  </Folder>
+  <Project Path="EfCoreCodeFirst.DAL/EfCoreCodeFirst.DAL.csproj" />
   <Project Path="EfCoreCodeFirst/EfCoreCodeFirst.csproj" />
 </Solution>
